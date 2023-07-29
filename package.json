@@ -1,52 +1,32 @@
 {
-  "name": "boilerplate-react",
-  "version": "0.2.0",
-  "description": "React!",
-  "repository": "https://github.com/dev-academy-challenges/react-boilerplate.git",
-  "main": "server/index.js",
+  "name": "temuera-pearse-github-io",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "vitest",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": "@devacademy/eslint-config/react",
-    "ignorePatterns": [
-      "bundle.js"
-    ]
-  },
-  "author": "Dev Academy Aotearoa",
-  "license": "ISC",
-  "devDependencies": {
-    "@devacademy/eslint-config": "^1.8.0",
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.23",
-    "@types/react-dom": "^18.0.7",
-    "@vitejs/plugin-react": "^3.1.0",
-    "@vitest/coverage-c8": "^0.30.1",
-    "eslint": "^8.10.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.1",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "nodemon": "^2.0.15",
-    "npm-run-all": "^4.1.5",
-    "prettier": "2.6.1",
-    "react": "^18.0.2",
+  "dependencies": {
+    "framer-motion": "^10.13.0",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.2",
-    "typescript": "~4.8.4",
-    "vite": "^4.2.1",
-    "vitest": "^0.30.1"
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.14.2",
+    "tailwind": "^4.0.0"
   },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
-  },
-  "browserslist": "> 2%, not dead"
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0"
+  }
 }
