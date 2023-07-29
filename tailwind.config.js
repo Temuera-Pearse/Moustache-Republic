@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ['./*.html', './client/**/*.[tj]sx'],
   theme: {
     extend: {
@@ -14,13 +14,6 @@ export default {
       fontFamily: {
         display: ['Cascadia Mono'],
         body: ['"Open Sans"'],
-      },
-      borderWidth: {
-        1: '1px',
-        3: '3px',
-      },
-      width: {
-        42: '168px',
       },
     },
   },
