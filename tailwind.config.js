@@ -1,21 +1,19 @@
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: ['./*.html', './client/**/*.[tj]sx'],
-  media: false,
   theme: {
     extend: {
       colors: {
-        primary: '#DF4E41',
-        pink: '#F18A81',
-        warmPink: '#EDC1AF',
-        coldPink: '#ECDBD2',
-        lightPink: '#FFFAFA',
+        Header: '#F6F6F7',
+        Fontcolour: '#222222',
+        Fontcolour: '#888888',
+        RequiredStar: '#C90000',
+        BorderLightGrey: '#CCCCCC',
+        BorderDarkGrey: '#222222',
       },
       fontFamily: {
-        display: ['Oswald'],
+        display: ['Cascadia Mono'],
         body: ['"Open Sans"'],
-      },
-      backgroundImage: {
-        neighbours: "url('/images/background-image.png')",
       },
       borderWidth: {
         1: '1px',
@@ -25,9 +23,6 @@ module.exports = {
         42: '168px',
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }
