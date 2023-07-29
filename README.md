@@ -1,3 +1,22 @@
+# Welcome
+im about to attempt this tech challenge. its my second ever tech challenge and so i've decided to spend 5 hours in total trying to get as far as possible. 1 hour planning then break then 2 hours coding, break then the last 2 hours. 
+
+the commit i do next will mark the start of the planning phase (ill call it 'planning phase').
+
+#Planning Phase
+
+Need to make what looks to be a e commerce type app. i have some excercises from dev academy i can look into as we did something along those lines. They were in redux though and i kinda want to react-query for this one. 
+
+ill pseudocode as much as can in the planning phase
+
+first ill copy and paste the requirements into this readme
+
+
+
+
+
+
+
 # React Boilerplate
 
 ## Packages Included
