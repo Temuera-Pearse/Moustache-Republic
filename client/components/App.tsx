@@ -1,8 +1,11 @@
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import Header from './Header'
+
 function App() {
   return (
     <div>
-      <h1>App</h1>
-      <p>React development has begun!</p>
+      <Outlet />
     </div>
   )
 }
